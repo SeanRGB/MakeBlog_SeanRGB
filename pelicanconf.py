@@ -8,20 +8,20 @@ SITEURL = 'http://seanrgb.github.io'
 
 PATH = 'content'
 
-TIMEZONE = 'America/Anchorage'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 
-OUTPUT_PATH = 'output'
+OUTPUT_PATH = '../seanrgb.github.io/'
 PATH = 'content'
 LOAD_CONTENT_CACHE = False
 
-#ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
-#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}index.html'
+ARTICLE_URL = '{date:%Y}{date:%m}{date:%d}{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}{date:%m}{date:%d}{slug}.html'
 
 # THEME STUFF (a lot of this is specifically for the Flex theme)
 
-THEME = u'Flex'
+THEME = './pelican-themes/Flex'
 SITETITLE = 'Sean RG Barberie'
 SITESUBTITLE = 'Drones | Disasters | Data Science'
 SITELOGO = './gravatar.png'

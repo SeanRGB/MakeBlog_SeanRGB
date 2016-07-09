@@ -1,8 +1,8 @@
 Title: Using a drone to build 3D Structure-From-Motion models in New Zealand, Part 2: Droning the Castle Hill Rock Formation
-Date: 2016-07-13 19:12
+Date: 2016-07-05
 Category: Expeditions
 Tags: Structure-from-Motion, drones, New Zealand, DJI Phantom
-Slug: DroningNZPart2
+Slug: CastleHill
 Author: Sean Barberie
 Summary: This blog entry is part 2 of a short series on my recent research trip to New Zealand. Here I show the data collection and construction of a Structure-from-Motion 3D model of the Castle Hill rock formation. I use both Agisoft Photoscan and ESRI ArcGIS Drone2Map for the data processing. Come back soon for a post on placing seismometers on Tasman Glacier and collecting drone imagery of the terminus, and a post on science of opportunity and building models of glacial lake icebergs.
 

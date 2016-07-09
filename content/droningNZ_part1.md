@@ -1,5 +1,5 @@
 Title: Using a drone to build 3D Structure-From-Motion models in New Zealand, Part 1: Evangelizing drones for science
-Date: 2016-07-13 19:12
+Date: 2016-06-06
 Category: Expeditions
 Tags: Structure-from-Motion, drones, New Zealand, DJI Phantom
 Slug: DroningNZPart1
@@ -50,9 +50,11 @@ In the next blog post I'll be showing a case-study of generating a 3D Structure-
 
 The trip was made possible with support from the S.T. Lee Young Researcher Travel Award through the Antarctic Research Center at Victoria University of Wellington and the International Arctic Research Center, University of Alaska Fairbanks. Generous funding, support, and project management and advising were also provided by the Alaska Center for Unmanned Aircraft Systems Integration (ACUASI) at the Geophysical Institute, University of Alaska Fairbanks. 
 
+Funding and support for blogging has been provided by the [ESIP Federation](http://esipfed.org/) as part of my ESIP Fellowship.
+
 ## About the Author
 
-Sean Barberie is a recent graduate from the University of Alsaka Fairbanks with an interdisciplinary M.S. in Geospatial Data Science. He is a current student fellow at the [ESIP Federation](http://esipfed.org/) where he is able to pursue his interest in geospatial data for disaster response, and science communication. His research interests include drones, data science, data visuzalization, and remote sensing.
+Sean Barberie is a recent graduate from the University of Alsaka Fairbanks with an interdisciplinary M.S. in Geospatial Data Science. He is a current student fellow at the [ESIP Federation](http://esipfed.org/) where he is able to pursue his interest in geospatial data for disaster response, and science communication. His research interests include drones, data science, data visuzalization, structure from motion, and remote sensing. He is also an evangelist for citizen science and open science. 
 
 __Contact__
 

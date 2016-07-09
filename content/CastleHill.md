@@ -10,8 +10,9 @@ This is my second blog post in a short series on my research trip to New Zealand
 
 This is also cross-posted with a post on the ESIP Federation website. Find it [here](http://esipfed.org/node/9216).
 
+## Intro
 
-Some of the predominant challenges in using an off-the-shelf drone for scientific research are the limitations on flight distance and duration. First there are the built in distance limitations. Off-the-shelf drones are made for taking selfies and short videos, so the manufacturers don’t expect you to need to cover a large area. As a result, their allowed range and the strength of their communications signal (between the aircraft and the controller) is not as great as with commercial-grade drones. I decided to take a slight detour in my New Zealand trip to test out what I really could do with my small drone and while restricting myself to just one battery. This gave me approximately a 15 minute flight time. I processed the imagery twice, once using Agisoft Photoscan, and once using ESRI's ArcGIS Drone2Map. Here are the result.
+Some of the predominant challenges in using an off-the-shelf drone for scientific research are the limitations on flight distance and duration. First there are the built in distance limitations. Off-the-shelf drones are made for taking selfies and short videos, so the manufacturers don’t expect you to need to cover a large area. As a result, their allowed range and the strength of their communications signal (between the aircraft and the controller) is not as great as with commercial-grade drones. I decided to take a slight detour in my New Zealand trip to test out what I really could do with my DJI Phantom 3 Standard while restricting myself to just one battery. This gave me approximately a 20 minute flight time. I processed the imagery twice, once using Agisoft Photoscan, and once using ESRI's ArcGIS Drone2Map. Here are the result.
 
 ## The Location: Castle Hill, NZ<img src="./../imgs/ch1.png">
 <center><i>Figure 1: A photo of the Castle Hill Rock Formation, taken from atop one of the larger boulders.</i></center>
@@ -27,20 +28,20 @@ For the DJI Phantom, you control the drone with a regular RC controler, but you 
 <img src="./../imgs/ch3.png">
 <center><i>Figure 3: The flight path I took while imaging the Castle Hill rock formation with my DJI Phantom. This is show in ESRI's Drone2Map software. The orange lines indicate where I flew and the blue dots indicate that a picture was taken at that location.</i></center>
 
-For my flight path I created concentric spirals around the area of interest, extending further and further out. The DJI Phantom Standard has a declared max flight duration of about 25 minutes. In practice I usually estimate that I have around 15 minutes, but I may be overly pessimistic having lived the last few years in chilly/battery-killing Alaska. I was able to fly this first area in about 10 or 12 minutes, giving me as much as several minutes of flight still remaining. I decided to push it and plotted another flight path on the same battery. This flight path would cover an area that I had had trouble reaching previously by going 100 ft higher. You can see in Fig XX a spiral-shaped flight and a jagged flight path in the upper right. The former (spiral) was the first flight, and the latter (jagged) flight was the second, higher flight.
+For my flight path I created concentric spirals around the area of interest, extending further and further out. The DJI Phantom Standard has a declared max flight duration of about 25 minutes. In practice I usually estimate that I have around 15 minutes, but I may be overly pessimistic having lived the last few years in chilly/battery-killing Alaska. I was able to fly this first area in about 10 or 12 minutes, giving me as much as several minutes of flight still remaining. I decided to push it and plotted another flight path on the same battery. This flight path would cover an area that I had had trouble reaching previously by going 100 ft higher. You can see in Fig 3 a spiral-shaped flight and a jagged flight path in the upper right. The former (spiral) was the first flight, and the latter (jagged) flight was the second, higher flight.
 
 
 
 ## The Data and Processing
 <img src="./../imgs/ch4.png">
-<center><i>Figure 4: </center></i>
+<center><i>Figure 4: Shown here is the 3D model I created from the imagery using Agisoft Photoscan. In this image you can also see the angle and height at which the various photos where taken, these appear as flat blue squares in the sky above the surface.</center></i>
 
 I first processed the data using Agisoft Photoscan, selecting out the viable photos and going through the standard workflow. You can see the model that that produced in Figure 4. 
 
 On the second flight, I had tested out a new trick that I hadn't tried out on the first. Take another look at Figure 4. The blue squares indicate where the camera was when it took a photo. You can see that the first flight is lower and the second flight is higher, but you can also see something else. In the second flight all of the squares form a V. That is because for my second flight I told the drone to take it's initial picture, then flip around, and take another picture. This turned out to be an excellent techinque for Structure-From-Motion as it allowed me to collect more overlapping imagery in less time, while maintaining a small angle. 
 
 <img src="./../imgs/ch5.png">
-<center><i>Figure 5:</i></center>
+<center><i>Figure 5: Shown here is my Castle Hill imagery imposed over a basemap in ESRI's Drone2Map software.</i></center>
 
 I also tried processing the data with Drone2Map after some ESIP-affiliated ESRI folks suggested I give it a try. Take a look at Figure 5. It was easy, intuitive, and fast. I would love to do a future blog post purely on using Drone2Map to process imagery with this data as a case-study; maybe in the near future.
 
@@ -51,7 +52,7 @@ Here's a gif of the result (sorry it's a little choppy, that's the fault of my l
 
 
 ## After-Thoughts and Data Sharing 
-I'm curious if anyone has any ideas about how to share these kinds of projects with a broader community of both scientists and geospatial data scientists. I've seen that the [Open Science Foundation's Open Science Framework](https://osf.io/) can host 3D projects, but I was not able to find an export format for my SfM models that could be uploaded to the framework and maintain their texture/mesh. If anyone knows how to do this please contact me!
+I'm curious if anyone has any ideas about how to share these kinds of projects with a broader community of both scientists and geospatial data scientists; imagery is being broadly shared right now but 3D models, to my knowledge, are not. I've seen that the [Open Science Foundation's Open Science Framework](https://osf.io/) can host 3D projects, but I was not able to find an export format for my SfM models that could be uploaded to the framework and maintain their texture/mesh. If anyone knows how to do this please contact me!
 
 ## Next Time
 My next planned blog post is to showcase some of the fieldwork I did on Tasman Glacier with a team from the ARC, placing seismometers and my flying drone. I may also try to squeeze in a more detailed post about using Drone2Map. Check back soon!
